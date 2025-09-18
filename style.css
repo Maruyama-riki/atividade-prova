@@ -25,10 +25,14 @@ body{
     
 }
 .card{
-    align-items: flex-start;
     width: 60vw;
     padding: 2vw;
     color: rgb(1, 2, 2);
     margin: 2px;
-    border: 1px solid;
+    align-items:center;
+}
+
+.imge{
+    width: 60vw;
+    height: 60vw;
 }
