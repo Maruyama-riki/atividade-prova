@@ -1,0 +1,34 @@
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #5a5a5acc;
+    
+}
+header{
+    background-color: #918a8a;
+    color: rgb(29, 28, 28);
+    width: 100%;
+    position:top;
+    height: 80%;
+
+}
+body{
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu{
+    flex-direction:row-reverse;
+    
+    
+}
+.card{
+    align-items: flex-start;
+    width: 60vw;
+    padding: 2vw;
+    color: rgb(1, 2, 2);
+    margin: 2px;
+    border: 1px solid;
+}
