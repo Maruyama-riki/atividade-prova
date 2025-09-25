@@ -20,9 +20,16 @@ header{
 
 }
 body{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRacw8K8MRxOlfixIsIm6F9ZK3J9Bj3i6UXwA&s');
+    background-image: url('https://imgs.search.brave.com/Wiv7IAWsLANs2LWYQ2uJspEPPrZjkX7GYBk7uFcbnnA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvcG9r/ZW1vbi1iYWNrZ3Jv/dW5kLXo2bWo4bWIz/bWV0NnVvZWYuanBn');
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+    margin: 0;
+    background-image: url('https://imgs.search.brave.com/Wiv7IAWsLANs2LWYQ2uJspEPPrZjkX7GYBk7uFcbnnA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvcG9r/ZW1vbi1iYWNrZ3Jv/dW5kLXo2bWo4bWIz/bWV0NnVvZWYuanBn');
+    background-size: cover;          
+    background-position: center;     
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    
 
 }
 .menu{
