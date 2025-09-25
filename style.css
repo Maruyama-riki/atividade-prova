@@ -1,9 +1,10 @@
 header .container{
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-end;
     align-items: center;
     padding: 20px 0;
     background-color: #5a5a5acc;
+    margin: 0vw;
     
 }
 header{
@@ -11,28 +12,57 @@ header{
     color: rgb(29, 28, 28);
     width: 100%;
     position:top;
-    height: 80%;
+    height: 20%;  
+    display: flex;
+    align-items: center;
+
+
 
 }
 body{
     background-color:aliceblue;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 
 }
 .menu{
-    flex-direction:row-reverse;
+    flex-direction:row;
+    align-items: right;
+    text-align: end;
+    margin-left: auto;
+    text-decoration:none;
     
     
 }
 .card{
-    width: 60vw;
     padding: 2vw;
     color: rgb(1, 2, 2);
     margin: 2px;
     align-items:center;
+    border-radius: 0px;
+    border: 1px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
 }
 
 .imge{
-    width: 40%;
-    height: 60%;
+    width: 10vw;
+    height: 20vw;
+    display: flex;
+    align-items: end;
+}
+.container{
+    
+}
+
+.container-projeto {
+    display: flex;
+    align-items: start;
+}
+.container-greninja{
+    display: flex;
 }
